@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista 9 Exercício 2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<h1>Tabela Interativa</h1>
+
+<table>
+    <tr>
+        <th>Disciplina</th>
+        <th>Aluno</th>
+        <th>P1</th>
+        <th>P2</th>
+        <th>Total</th>
+    </tr>
+
+    <tr>
+        <td rowspan="6" class="disciplina" onclick="clicou('Web')">Web</td>
+        <td onclick="clicou('Ana - Web')">Ana</td>
+        <td onclick="clicou('P1 Ana Web')">29</td>
+        <td onclick="clicou('P2 Ana Web')">17</td>
+        <td onclick="clicou('Total Ana Web')">46</td>
+    </tr>
+    <tr>
+        <td onclick="clicou('Eva - Web')">Eva</td>
+        <td onclick="clicou('P1 Eva Web')">27</td>
+        <td onclick="clicou('P2 Eva Web')">17</td>
+        <td onclick="clicou('Total Eva Web')">44</td>
+    </tr>
+    <tr>
+        <td onclick="clicou('Gil - Web')">Gil</td>
+        <td onclick="clicou('P1 Gil Web')">28</td>
+        <td onclick="clicou('P2 Gil Web')">15</td>
+        <td onclick="clicou('Total Gil Web')">43</td>
+    </tr>
+    <tr>
+        <td onclick="clicou('Ise - Web')">Ise</td>
+        <td onclick="clicou('P1 Ise Web')">25</td>
+        <td onclick="clicou('P2 Ise Web')">15</td>
+        <td onclick="clicou('Total Ise Web')">40</td>
+    </tr>
+    <tr>
+        <td onclick="clicou('Ive - Web')">Ive</td>
+        <td onclick="clicou('P1 Ive Web')">26</td>
+        <td onclick="clicou('P2 Ive Web')">20</td>
+        <td onclick="clicou('Total Ive Web')">46</td>
+    </tr>
+    <tr class="media">
+        <td colspan="3" onclick="clicou('Média Web')">Média Web</td>
+        <td colspan="2" onclick="clicou('43,8')">43,8</td>
+    </tr>
+
+    <tr>
+        <td rowspan="6" class="disciplina" onclick="clicou('Lógica de Programação')">Lógica de Programação</td>
+        <td onclick="clicou('Ana - Lógica')">Ana</td>
+        <td onclick="clicou('P1 Ana Lógica')">29</td>
+        <td onclick="clicou('P2 Ana Lógica')">17</td>
+        <td onclick="clicou('Total Ana Lógica')">46</td>
+    </tr>
+    <tr>
+        <td onclick="clicou('Eva - Lógica')">Eva</td>
+        <td onclick="clicou('P1 Eva Lógica')">27</td>
+        <td onclick="clicou('P2 Eva Lógica')">17</td>
+        <td onclick="clicou('Total Eva Lógica')">44</td>
+    </tr>
+    <tr>
+        <td onclick="clicou('Gil - Lógica')">Gil</td>
+        <td onclick="clicou('P1 Gil Lógica')">28</td>
+        <td onclick="clicou('P2 Gil Lógica')">15</td>
+        <td onclick="clicou('Total Gil Lógica')">43</td>
+    </tr>
+    <tr>
+        <td onclick="clicou('Ise - Lógica')">Ise</td>
+        <td onclick="clicou('P1 Ise Lógica')">25</td>
+        <td onclick="clicou('P2 Ise Lógica')">15</td>
+        <td onclick="clicou('Total Ise Lógica')">40</td>
+    </tr>
+    <tr>
+        <td onclick="clicou('Ive - Lógica')">Ive</td>
+        <td onclick="clicou('P1 Ive Lógica')">26</td>
+        <td onclick="clicou('P2 Ive Lógica')">20</td>
+        <td onclick="clicou('Total Ive Lógica')">46</td>
+    </tr>
+    <tr class="media">
+        <td colspan="3" onclick="clicou('Média Lógica de Programação')">Média Lógica de Programação</td>
+        <td colspan="2" onclick="clicou('43,8')">43,8</td>
+    </tr>
+</table>
+
+<script src="clicar.js"></script>
+</body>
+</html>

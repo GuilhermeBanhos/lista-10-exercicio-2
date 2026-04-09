@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 550px;
+}
+
+th, td {
+    border: 1px solid #7a8cb8;
+    padding: 10px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+th {
+    background-color: #3b5998;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #8b9dc3;
+}
+
+tr:nth-child(odd) {
+    background-color: #dfe3ee;
+}
+
+.media {
+    background-color: #ff4500 !important;
+    color: white;
+}
+
+.disciplina {
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: white !important;
+    color: #ff4500;
+    font-weight: bold;
+}
